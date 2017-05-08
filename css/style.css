@@ -1,0 +1,115 @@
+
+body{
+	background-color:#000000;
+}
+
+
+.menu {
+	position:relative;
+	top:-10px;
+	left:70px;
+	height:378px;
+	width:1090px;
+	background: url(../image/banner.png);
+}
+
+.bottom {
+	position:relative;
+	top:1300px;
+	left:50px;
+	height:50px;
+	width:1090px;
+	opacity:0.4;
+	background: -webkit-linear-gradient(left,#339ebe 0%,#1a5d7a 33%,#1a5d7a 66%,#339ebe 100%);
+}
+
+.overlay{
+	position:absolute;
+	top:480px;
+	left:65px;
+	height:1200px;
+	width:1150px;
+	background: url(../image/content.png);
+	z-index:999;
+}
+
+.content{
+	position:relative;
+	padding-top:100px;
+	z-index:999;
+}
+
+.grid_1{
+	display:inline;
+	float:left;
+	position:relative;
+	margin-left:5px;
+	margin-right:5px
+}
+
+.cell_right{
+	position:relative;
+	padding-left:320px;
+	padding-bottom:100px;
+}
+
+.cell_left{
+	position:relative;
+	padding-left:220px;
+	padding-bottom:100px;
+	
+}
+
+.cell_right .grid_1{
+	position:relative;
+	float:right;
+	
+}
+
+
+.cell_left .grid_1{
+	position:relative;
+	float:left;
+}
+
+.gridContent{
+	position:relative;
+	display:block;
+	color:#ebf1ff;
+}
+
+.rose{
+	position:relative;
+	display:block;
+	top:10px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.picture {
+	position:relative;
+	display:block;
+	top:40px;
+	margin-left: auto;
+    margin-right: auto;
+    border-style: outset;
+    border-color:#4895b3;
+}
+
+.name {
+	position:relative;
+	text-align: center;
+	top:50px;
+	font-size:150%;
+}
+
+.info {
+	position:relative;
+	text-align: center;
+    top:50px;
+}
+
+.info a{
+	color:#6a85ff;
+}
+
